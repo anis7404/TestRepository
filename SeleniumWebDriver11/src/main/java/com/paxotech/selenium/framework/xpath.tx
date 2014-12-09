@@ -1,0 +1,33 @@
+http://www.w3.org/TR/xpath/
+http://zvon.org/xxl/XPathTutorial/Output/example1.html
+http://oreilly.com/perl/excerpts/system-admin-with-perl/ten-minute-xpath-utorial.html
+http://www.liquid-technologies.com/xpath-tutorial.aspx
+http://hedleyproctor.com/2011/05/tutorial-writing-xpath-selectors-for-selenium-tests/
+http://seleneselearner.blogspot.com/2011/01/xpath-locators.html
+http://unmesh.me/2011/04/22/using-xpath-axes-for-locating-elements-in-selenium/
+
+http://www.unit-testing.net/CurrentArticle/How-To-Write-XPath-for-Selenium-Tests.html
+
+
+
+
+//body/div[@id='content' and @role='main']
+
+//body/*[@id='content' and @role='main']
+
+//html/body/*[@id='content' and @role='main']/ul[@id='products']
+//html/body/*[@id='content' and @role='main']/ul[@id='products']/li[2]
+
+//html/body/*[@id='content' and @role='main']/ul[@id='products']/li[2]/div/div[@class='title']
+//*[@id='content' and @role='main']/ul[@id='products']/li[2]/div/div[@class='title']
+//ul[@id='products']/li[2]/div/div[@class='title']
+
+//ul[@id='products']/li/div/div[text()='Day of the Dead Scotch Bonnet Hot Sauce']
+//ul[@id='products']//div[text()='Day of the Dead Scotch Bonnet Hot Sauce']
+
+//ul[@id='products']//div[text()='Day of the Dead Scotch Bonnet Hot Sauce']/../../div[contains(@class,'productActions')]
+//ul[@id='products']//div[text()='Day of the Dead Scotch Bonnet Hot Sauce']/../../div[starts-with(@class,'productActions')]
+//ul[@id='products']//div[text()='Day of the Dead Scotch Bonnet Hot Sauce']/../../div[contains(@class,'productActions')]//input[@class='addToCart']
+//ul[@id='products']//div[text()="Day of the Dead Scotch Bonnet Hot Sauce"]/../../div[contains(@class,'productActions')]//input[@class='addToCart']
+
+//ul[@id='
