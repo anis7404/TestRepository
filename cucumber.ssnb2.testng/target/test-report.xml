@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.633772">
+<testcase classname="Broadleaf Commerce Login Functionality" name="4. Add product to cart" time="13.633772">
+<system-out><![CDATA[Given As a not validated user...............................................passed
+When Browse to the url "http://demo.broadleafcommerce.org"..................passed
+Then Broadlief home page should show........................................passed
+When User click login button................................................passed
+When User login with userid "iivaan@gmail.com" and password "ameera"........passed
+And Welcome message shows...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

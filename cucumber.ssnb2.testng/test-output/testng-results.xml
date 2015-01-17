@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: MyFeatureFile.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: Broadleaf Commerce Login Functionality</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: 4. Add product to cart</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  As a not validated user (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  Browse to the url &quot;http:&#x2F;&#x2F;demo.broadleafcommerce.org&quot; (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  Broadlief home page should show (passed : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User click login button (passed : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  User login with userid &quot;iivaan@gmail.com&quot; and password &quot;ameera&quot; (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  Welcome message shows (passed : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14217" started-at="2015-01-11T19:33:28Z" finished-at="2015-01-11T19:33:42Z">
+    <groups>
+      <group name="CucumberTest">
+        <method signature="HeatclinicTestRunner.cucumberTest()[pri:0, instance:com.paxovision.selenium.HeatclinicTestRunner@7cdd422e]" name="cucumberTest" class="com.paxovision.selenium.HeatclinicTestRunner"/>
+      </group> <!-- CucumberTest -->
+    </groups>
+    <test name="Default test" duration-ms="14217" started-at="2015-01-11T19:33:28Z" finished-at="2015-01-11T19:33:42Z">
+      <class name="com.paxovision.selenium.HeatclinicTestRunner">
+        <test-method status="PASS" signature="cucumberTest()[pri:0, instance:com.paxovision.selenium.HeatclinicTestRunner@7cdd422e]" name="cucumberTest" duration-ms="14201" started-at="2015-01-11T14:33:28Z" description="TestNGCucumberRunner to invoke Cucumber" finished-at="2015-01-11T14:33:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: MyFeatureFile.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: Broadleaf Commerce Login Functionality</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: 4. Add product to cart</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  As a not validated user (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  Browse to the url &quot;http:&#x2F;&#x2F;demo.broadleafcommerce.org&quot; (passed : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  Broadlief home page should show (passed : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User click login button (passed : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  User login with userid &quot;iivaan@gmail.com&quot; and password &quot;ameera&quot; (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  Welcome message shows (passed : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cucumberTest -->
+      </class> <!-- com.paxovision.selenium.HeatclinicTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
