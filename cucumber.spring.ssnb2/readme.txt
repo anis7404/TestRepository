@@ -1,0 +1,1 @@
+https://github.com/rlogiacco/Natural/wiki/Screenshots
