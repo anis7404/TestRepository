@@ -4,21 +4,16 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalToIgnoringCase;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import org.testng.Assert;
 
-import com.paxovision.cucumber.framework.CucumberStepBase;
-
+import com.paxovision.cucumber.framework.Steps;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class HeatclinicSteps extends CucumberStepBase {
+public class HeatclinicSteps extends Steps {
 
-	
 	@Given("^As a not validated user$")
 	public void as_a_not_validated_user() throws Throwable {
 		driver.manage().deleteAllCookies();
@@ -29,6 +24,14 @@ public class HeatclinicSteps extends CucumberStepBase {
 		System.out.println(url);
 	    driver.navigate().to(url);
 	}
+	
+	@When("^Browse to the application$")
+	public void browse_to_the_app() throws Throwable {
+		String url = environment.getProperty("root.url");
+		System.out.println(url);
+	    driver.navigate().to(url);
+	}
+	
 
 	@Then("^Broadlief home page should show$")
 	public void broadlief_home_page_should_show() throws Throwable {
