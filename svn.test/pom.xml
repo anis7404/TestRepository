@@ -3,4 +3,6 @@
   <groupId>com.paxovision.testing</groupId>
   <artifactId>svn.test</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <build></build>
 </project>
